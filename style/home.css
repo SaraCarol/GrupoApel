@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8vh 4vw;
+}
+
+.logo {
+  width: 25%;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% 5%;
+}
+
+.button-construction {
+  padding: 1vw;
+  font-size: 5vw;
+  color: white;
+  background-color: black;
+  height: 35vh;
+  width: 60vw;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.button-construction:hover {
+  transform: scale(110%);
+}
+
+footer {
+  margin-top: 6vh;
+  padding: 1vh;
+  color: white;
+  background-color: black;
+}
+
+.div-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-mail {
+  width: 8%;
+  cursor: pointer;
+  padding-right: 2%;
+}
+
+.usuarios{
+  font-size: 2vw;
+  cursor: pointer;
+  transition: 0.5s all;
+  padding-right: 5%;
+}
+
+.usuarios a{
+    text-decoration: none;
+    color: white;
+}
+
+.usuarios:hover{
+    transform: scale(110%);
+}
